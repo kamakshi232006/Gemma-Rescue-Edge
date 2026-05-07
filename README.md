@@ -1,6 +1,7 @@
 # 🚨 Gemma-Rescue Edge
 
 Gemma-Rescue Edge is an offline AI-powered disaster response system built using Gemma, Unsloth fine-tuning, Ollama, and Streamlit.
+The system converts thermal readings, movement signals, and environmental conditions into actionable rescue intelligence entirely offline.
 
 The system analyzes:
 
@@ -21,6 +22,8 @@ and generates:
 * Disaster triage reasoning
 * Streamlit rescue dashboard
 * Ollama local inference
+* Disaster victim prioritization
+* Emergency rescue recommendations
 * Edge-AI deployment
 
 ## 🛠️ Tech Stack
@@ -30,6 +33,8 @@ and generates:
 * Ollama
 * Streamlit
 * Python
+* Hugging Face Datasets
+* TRL / PEFT / LoRA
 * GGUF Quantization
 
 ## 🚀 Run Locally
